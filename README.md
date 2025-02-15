@@ -117,6 +117,8 @@ This project consists of a producer and a consumer service that communicate via 
   **Producer:**
   -  Input Validtion: Endpoints check that the requiered params are in the correct type and return the correct error code
   -  Connection Validation: The producer app is starting only after the Kafka app is up, and then produce a healthcheck message to verify the connetcion is valid
+
+
   **Consumer:**
   -  Connection Validtion: the consumer app is starting after the producer app is up
   -  Event Processing: every event is procced with a try-catch block to catach potential errors and handle them
