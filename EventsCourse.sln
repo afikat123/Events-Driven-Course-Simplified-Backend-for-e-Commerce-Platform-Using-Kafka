@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartService", "CartService\CartService.csproj", "{7BAA99BD-27C1-4B69-A1D1-14EA2451712F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderService\OrderService.csproj", "{42706B2B-AB96-4F6F-BE66-26F6148C79CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BAA99BD-27C1-4B69-A1D1-14EA2451712F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BAA99BD-27C1-4B69-A1D1-14EA2451712F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BAA99BD-27C1-4B69-A1D1-14EA2451712F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BAA99BD-27C1-4B69-A1D1-14EA2451712F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42706B2B-AB96-4F6F-BE66-26F6148C79CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42706B2B-AB96-4F6F-BE66-26F6148C79CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42706B2B-AB96-4F6F-BE66-26F6148C79CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42706B2B-AB96-4F6F-BE66-26F6148C79CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

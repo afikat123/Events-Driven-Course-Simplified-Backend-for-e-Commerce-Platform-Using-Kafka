@@ -1,0 +1,5 @@
+Pull Kafka Image:
+docker pull apache/kafka:latest
+
+Run Kafka:
+docker run -p 9092:9092 apache/kafka:latest

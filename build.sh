@@ -1,0 +1,1 @@
+docker build -t afikat123/cartservice:latest ./CartService ; docker push afikat123/cartservice:latest; docker build -t afikat123/orderservice:latest ./OrderService ; docker push afikat123/orderservice:latest
