@@ -112,11 +112,11 @@ This project consists of a producer and a consumer service that communicate via 
     2. update-order-topic
 
   ## Message Key:
-    for every message in produced we used the orderId as the key to the message, to ensure that every consumer will handle every message related to the same order(create and update)
+  -  for every message in produced we used the orderId as the key to the message, to ensure that every consumer will handle every message related to the same order(create and update)
   ## Handle Errors:
   **Producer:**
-    -  Input Validtion: Endpoints check that the requiered params are in the correct type and return the correct error code
-    -  Connection Validation: The producer app is starting only after the Kafka app is up, and then produce a healthcheck message to verify the connetcion is valid
+  -  Input Validtion: Endpoints check that the requiered params are in the correct type and return the correct error code
+  -  Connection Validation: The producer app is starting only after the Kafka app is up, and then produce a healthcheck message to verify the connetcion is valid
   **Consumer:**
   -  Connection Validtion: the consumer app is starting after the producer app is up
   -  Event Processing: every event is procced with a try-catch block to catach potential errors and handle them
